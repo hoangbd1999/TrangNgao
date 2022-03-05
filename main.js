@@ -1,9 +1,9 @@
 // You can change global variables here:
-var radius = 380; // how big of the radius
+var radius = 240; // how big of the radius
 var autoRotate = true; // auto rotate or not
 var rotateSpeed = -60; // unit: seconds/360 degrees
-var imgWidth = 120; // width of images (unit: px)
-var imgHeight = 170; // height of images (unit: px)
+var imgWidth = 50; // width of images (unit: px)
+var imgHeight = 100; // height of images (unit: px)
 
 // Link of background music - set 'null' if you dont want to play background music
 // var bgMusicURL = 'https://api.soundcloud.com/tracks/143041228/stream?client_id=587aa2d384f7333a886010d5f52f302a';
@@ -27,9 +27,9 @@ ospin.style.height = imgHeight + "px";
 
 // Size of ground - depend on radius
 var ground = document.getElementById('ground');
-ground.style.width = radius * 3 + "px";
+ground.style.width = radius * 3+ "px";
 ground.style.height = radius * 3 + "px";
-
+// vong tron
 function init(delayTime) {
   for (var i = 0; i < aEle.length; i++) {
     aEle[i].style.transform = "rotateY(" + (i * (360 / aEle.length)) + "deg) translateZ(" + radius + "px)";
