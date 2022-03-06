@@ -39,8 +39,8 @@
     }
     .ico .title{
       position: absolute;
-      top: 75%;
-      left: 70%;
+      top: 73%;
+      left: 67%;
       margin-left: -110px;
       margin-top: -100px;
       z-index: 4;
@@ -66,7 +66,7 @@
       /* top:0;
       left:0; */
       top:25%;
-      left:20%;
+      left:18%;
     }
     .ico:before,
     .ico:after,
