@@ -26,10 +26,10 @@ body{
 
 
 
-  /* * {
+  * {
     padding: 0;
     margin: 0;
-  } */
+  }
   
   body {
     background-color:bisque;
@@ -51,7 +51,7 @@ body{
     
   } */
   
-  /* h1 span {
+  h1 span {
     display: inline-block;
   }
   
@@ -64,7 +64,7 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
     position: relative;
-  } */
+  }
   
   @keyframes animate-characters {
     0% {
@@ -75,7 +75,7 @@ body{
     
     50% {
       bottom: 0.7em;
-      color:tomato;
+      color:rgb(199 0 18);
     }
   
     100% {
