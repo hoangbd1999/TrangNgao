@@ -44,7 +44,7 @@
       margin-left: -110px;
       margin-top: -100px;
       z-index: 4;
-      font-size: 40px;
+      font-size: 25px;
       text-align: center;
       font-family: 'Pacifico', cursive;
       color: #fff;
@@ -71,7 +71,7 @@
     .ico2:before,
     .ico2:after{
       display: block;
-      font-size: 10em;
+      font-size: 7.5em;
       color: #ff4081;
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
